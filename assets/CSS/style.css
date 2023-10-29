@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#form {
+    text-align: center;
+}
+
+#submit {
+    color: #fff;
+    background-color: green;
+    padding: 13px;
+    border-radius: 20px;
+    border: 1px solid green;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+#submit:hover {
+    border: 1px solid green;
+    background-color: #fff;
+    color: green;
+}
+
+input {
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid green;
+}
+
+#email {
+    width: 14rem;
+}
+
+label {
+    color: green;
+    font-size: 1.3rem;
+}
